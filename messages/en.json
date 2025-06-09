@@ -1,0 +1,27 @@
+{
+    "HomePage": {
+        "title": "Home",
+        "about": "About"
+    },
+    "Footer": {
+        "services": "Services",
+        "about": "About Us",
+        "contact": "Contact",
+        "faq": "FAQ",
+        "blog": "Blog",
+        "privacy-policy": "Privacy Policy",
+        "terms-conditions": "Terms and Conditions",
+        "help-center": "Help Center",
+        "copyright": "© Copyright 2025 | All rights reserved by Claradix",
+        "support": "Support",
+        "place": "Baku, Babek Plaza"
+    },
+    "Navbar": {
+        "about": "About Us",
+        "services": "Services",
+        "contact": "Contact",
+        "faq": "FAQ",
+        "blog": "Blog",
+        "register": "Register"
+    }
+}

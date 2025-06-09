@@ -1,0 +1,27 @@
+{
+    "HomePage": {
+        "title": "Ana səhifə",
+        "about": "Haqqında"
+    },
+    "Footer":{
+        "services": "Xidmətlər",
+        "about": "Haqqımızda",
+        "contact": "Əlaqə",
+        "faq": "TVS",
+        "blog": "Bloq",
+        "privacy-policy": "Məxfilik Siyasəti",
+        "terms-conditions": "Şərtlər və Qaydalar",
+        "help-center": "Yardım Mərkəzi",
+        "copyright": "© Copyright 2025 | Bütün hüquqlar Claradix tərəfindən qorunur",
+        "support": "Dəstək",
+        "place": "Bakı, Babək plaza"
+    },
+    "Navbar": {
+        "about": "Haqqımızda",
+        "services": "Xidmətlər",
+        "contact": "Əlaqə",
+        "faq": "TVS",
+        "blog": "Bloq",
+        "register": "Qeydiyyat"
+    }
+}

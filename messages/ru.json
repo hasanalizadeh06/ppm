@@ -1,0 +1,27 @@
+{
+    "HomePage": {
+        "title": "Главная",
+        "about": "О нас"
+    },
+    "Footer": {
+        "services": "Услуги",
+        "about": "О нас",
+        "contact": "Контакты",
+        "faq": "Часто задаваемые вопросы",
+        "blog": "Блог",
+        "privacy-policy": "Политика конфиденциальности",
+        "terms-conditions": "Условия и положения",
+        "help-center": "Центр помощи",
+        "copyright": "© Copyright 2025 | Все права защищены Claradix",
+        "support": "Поддержка",
+        "place": "Баку, Бабек плаза"
+    },
+    "Navbar": {
+        "about": "О нас",
+        "services": "Услуги",
+        "contact": "Контакты",
+        "faq": "Чзв",
+        "blog": "Блог",
+        "register": "Регистрация"
+    }
+}
