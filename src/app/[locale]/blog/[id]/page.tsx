@@ -1,18 +1,12 @@
-import BlogDetails from '@/components/blogs/blog-details'
-import React from 'react'
-
-interface PageProps {
-  params: { id: string }
-}
+import BlogDetails from "@/components/blogs/blog-details";
+import React from "react";
 
 export const metadata = {
   title: "PPM - Blog Details",
 };
 
-function page({ params }: PageProps) {
-  return (
-    <BlogDetails/>
-  )
+function page() {
+  return <BlogDetails />;
 }
 
-export default page
+export default page;
