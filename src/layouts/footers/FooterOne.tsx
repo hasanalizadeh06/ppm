@@ -28,25 +28,25 @@ const FooterOne = () => {
     <footer className="footer">
       <div className="upper">
         <div className="left">
-          <Image src={logo} alt="" />
+          <Image src={logo} alt="" width={100} height={100}/>
         </div>
         <div className="right">
           <div className="id-1">
             <ul>
               <li>
-                <Link href="about-us">{t("about")}</Link>
+                <Link href="/about-us">{t("about")}</Link>
               </li>
               <li>
-                <Link href="services">{t("services")}</Link>
+                <Link href="/services">{t("services")}</Link>
               </li>
               <li>
-                <Link href="blog">{t("blog")}</Link>
+                <Link href="/blog">{t("blog")}</Link>
               </li>
               <li>
-                <Link href="faq">{t("faq")}</Link>
+                <Link href="/faq">{t("faq")}</Link>
               </li>
               <li>
-                <Link href="contact">{t("contact")}</Link>
+                <Link href="/contact">{t("contact")}</Link>
               </li>
             </ul>
           </div>
@@ -73,21 +73,21 @@ const FooterOne = () => {
           <div className="support">
             <div className="id-2">
               <div className="header">
-                <Link href="about-us">{t("about")}</Link>
+                <Link href="/about-us">{t("about")}</Link>
               </div>
               <div className="content">
                 <ul>
                   <li>
-                    <Link href="services">{t("services")}</Link>
+                    <Link href="/services">{t("services")}</Link>
                   </li>
                   <li>
-                    <Link href="blog">{t("blog")}</Link>
+                    <Link href="/blog">{t("blog")}</Link>
                   </li>
                   <li>
-                    <Link href="faq">{t("faq")}</Link>
+                    <Link href="/faq">{t("faq")}</Link>
                   </li>
                   <li>
-                    <Link href="contact">{t("contact")}</Link>
+                    <Link href="/contact">{t("contact")}</Link>
                   </li>
                 </ul>
               </div>
@@ -97,13 +97,13 @@ const FooterOne = () => {
               <div className="content">
                 <ul>
                   <li>
-                    <Link href="help-center">{t("help-center")}</Link>
+                    <Link href="/help-center">{t("help-center")}</Link>
                   </li>
                   <li>
-                    <Link href="privacy-policy">{t("privacy-policy")}</Link>
+                    <Link href="/privacy-policy">{t("privacy-policy")}</Link>
                   </li>
                   <li>
-                    <Link href="terms-conditions">{t("terms-conditions")}</Link>
+                    <Link href="/terms-conditions">{t("terms-conditions")}</Link>
                   </li>
                 </ul>
               </div>

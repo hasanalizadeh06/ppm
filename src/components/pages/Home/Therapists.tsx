@@ -7,9 +7,9 @@ function Therapists() {
   return (
     <div className="therapists-component">
       <div className="upper">
-        <Link className="button-first" href="/appointments">
+        <div className="button-first">
           LATEST BLOGS
-        </Link>
+        </div>
         <Link className="button" href="/blog">
           MORE <IoArrowForward />
         </Link>

@@ -12,11 +12,11 @@ import Image from "next/image";
 function Events() {
   return (
     <div className="events-component">
-      <Image src={logo} alt="Bg image" className='logo'/>
+      <Image src={logo} alt="Bg image" width={100} height={100} className='logo'/>
       <div className="upper">
-        <Link className="button-first" href="/appointments">
+        <div className="button-first">
           UPCOMING EVENTS
-        </Link>
+        </div>
       </div>
       <div className="lower">
         <div className="leftside">

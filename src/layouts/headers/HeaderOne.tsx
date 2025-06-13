@@ -24,25 +24,25 @@ const HeaderOne = () => {
       <div className="navbar">
         <div className="logo">
           <Link href="/">
-            <Image className="img" src={logo} alt="" />
+            <Image className="img" src={logo} width={100} height={100} alt="" />
           </Link>
         </div>
         <div className="links">
           <ul>
             <li>
-              <Link href="about-us">{t("about")}</Link>
+              <Link href="/about-us">{t("about")}</Link>
             </li>
             <li>
-              <Link href="services">{t("services")}</Link>
+              <Link href="/services">{t("services")}</Link>
             </li>
             <li>
-              <Link href="blog">{t("blog")}</Link>
+              <Link href="/blog">{t("blog")}</Link>
             </li>
             <li>
-              <Link href="faq">{t("faq")}</Link>
+              <Link href="/faq">{t("faq")}</Link>
             </li>
             <li>
-              <Link href="contact">{t("contact")}</Link>
+              <Link href="/contact">{t("contact")}</Link>
             </li>
           </ul>
         </div>

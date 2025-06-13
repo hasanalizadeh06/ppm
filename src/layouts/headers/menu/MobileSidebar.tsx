@@ -16,7 +16,7 @@
           <nav className="tgmobile__menu-box">
             <div onClick={() => setIsActive(false)} className="close-btn"><i className="tg-flaticon-close"></i></div>
             <div className="nav-logo">
-              <Link href="/"><Image style={{maxWidth:230}} src={logo} alt="Logo" /></Link>
+              <Link href="/"><Image style={{maxWidth:230}} width={100} height={100} src={logo} alt="Logo" /></Link>
             </div>
             <div className="tgmobile__menu-outer">
               <NavMenu />

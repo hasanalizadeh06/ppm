@@ -8,10 +8,13 @@
       @media (min-width: 768px){
         display: none;
       }
+      color: #fff;
       border-radius: 32px;
       background-color: #0171bd;
-      color: white;
       ul {
+        a{
+          color: white;
+        }
         list-style-type: none;
         margin: 0;
 
@@ -198,6 +201,9 @@
           ul {
             list-style-type: none;
             margin: 0;
+            a{
+              color: white;
+            }
 
             .link2 {
               border-radius: 0 0 32px 32px;
@@ -579,8 +585,9 @@
       }
 
       .service-card {
+        flex: 1;
         position: relative;
-        background-image: url("../../../../public/assets/servicesbg.png");
+        // background-image: url("../../../../public/assets/servicesbg.png");
         background-size: cover;
         border-radius: 32px;
         padding: 24px;
@@ -603,6 +610,7 @@
           display: flex;
           flex-direction: column;
           gap: 20px;
+          align-items: flex-start;
         }
 
         .card-lower a {
@@ -855,6 +863,9 @@
         color: white;
       }
     }
+    .upper{
+      align-self: flex-start;
+    }
 
     .lower {
       display: flex;
@@ -990,6 +1001,9 @@
       rgba(19, 142, 223, 1) 40%,
       rgba(5, 120, 197, 1) 100%
     );
+    .linker{
+      align-self: flex-start;
+    }
     border-radius: 32px;
     padding: 30px;
     display: flex;

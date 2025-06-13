@@ -18,7 +18,7 @@ const AboutArea = () => {
                WHO WE ARE
             </div>
             <div className="img">
-               <Image src={img1} alt="" />
+               <Image src={img1} width={100} height={100} alt="" />
             </div>
          </div>
          <div className="rightSide">
@@ -92,7 +92,7 @@ const AboutArea = () => {
                Lorem ipsum dolor sit amet Lorem ipsum dolor sit ametLorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit ametLorem ipsum dolor sit amet Lorem ipsum dolor sit ametLorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit ametLorem ipsum dolor sit amet
                </div>
             </div>
-            <Image src={img1} alt="" className='img' />
+            <Image src={img1} width={100} height={100} alt="" className='img' />
 
             <div className="box2">
                <div className="header">

@@ -1,17 +1,14 @@
-import Image from 'next/image';
-import Link from 'next/link'
 import React from 'react'
 import { FaArrowRight } from "react-icons/fa";
-import img from '../../../../public/assets/about/2.png';
 
 function OnlineConsultations() {
   return (
     <div className="consultation-component">
       <div className="leftside">
         <div className="linker">
-          <Link className="button-first" href="/appointments">
+          <div className="button-first">
             ONLINE CONSULTATION
-          </Link>
+          </div>
         </div>
         <div className="content">
           <h3>SIGN UP FOR AN ONLINE CONSULTATION <FaArrowRight/></h3>

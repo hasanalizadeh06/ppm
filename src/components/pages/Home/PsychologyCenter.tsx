@@ -8,7 +8,7 @@ import Link from 'next/link'
 function PsychologyCenter() {
   return (
     <div className='psychology-center-component'>
-      <Image src={logo} alt="Bg image" className='logo'/>
+      <Image width={100} height={100} src={logo} alt="Bg image" className='logo'/>
       <div className="main">
         <div className="header">
           <h1>
@@ -21,8 +21,8 @@ function PsychologyCenter() {
           </p>
         </div>
         <div className="learn-more">
-            <Image src={arrow} alt="arrow" className='arrow'/>
-            <Link className='button' href="#">Learn More</Link>
+            <Image width={100} height={100} src={arrow} alt="arrow" className='arrow'/>
+            <Link className='button' href="/about-us">Learn More</Link>
         </div>
       </div>
     </div>

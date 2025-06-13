@@ -16,7 +16,7 @@ const OffCanvas = ({ offCanvas, setOffCanvas }: MobileSidebarProps) => {
                <button onClick={() => setOffCanvas(false)}><i className="far fa-window-close"></i></button>
             </div>
             <div className="offCanvas__logo mb-30">
-               <Link href="/"><Image style={{maxWidth:230}} src={logo} alt="Logo" /></Link>
+               <Link href="/"><Image style={{maxWidth:230}} src={logo} width={100} height={100} alt="Logo" /></Link>
             </div>
             <div className="offCanvas__side-info mb-30">
                <div className="contact-list mb-30">

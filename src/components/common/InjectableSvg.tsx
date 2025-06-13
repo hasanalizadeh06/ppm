@@ -1,4 +1,5 @@
 "use client"
+import Image from 'next/image';
 import React, { useEffect, useRef } from 'react';
 import Vivus from 'vivus';
 
@@ -49,7 +50,7 @@ const InjectableSvg: React.FC<InjectableSvgProps> = ({ src, alt = '', className 
       fetchAndInjectSvg();
    }, [src]);
 
-   return <img ref={imgRef} src={src} alt={alt} className={`injectable ${className}`} />;
+   return <Image ref={imgRef} src={src} alt={alt} className={`injectable ${className}`} />;
 };
 
 export default InjectableSvg;

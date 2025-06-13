@@ -5,9 +5,9 @@ import { FaCircleCheck } from "react-icons/fa6";
 function Preferences() {
   return (
     <div className='preferences-component'>
-      <Link className="button-first" href="/appointments">
+      <div className="button-first">
         OUR PREFERENCES
-      </Link>
+      </div>
       <h1>LOREM IPSUM DOLOR SIT AMET LOREM IPSUM DOLOR SIT AMET LOREM IPSUM DOLOR SIT AMET LOREM IPSUM DOLOR SIT AMET </h1>
       <div className="img"/>
       <div className="list">
