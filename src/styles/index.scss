@@ -566,28 +566,28 @@ ul {
   @media (max-width: 768px) {
     font-size: 1.5rem;
   }
-}
 
-.who-we-are .leftSide .img::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: 0;
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  box-shadow: -35px -35px 0 0 white;
-}
 
-.who-we-are .leftSide .img::before {
+  &::after {
+    content: "";
+    position: absolute;
+    left: 100%;
+    top: 0;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: -35px -35px 0 0 white;
+  }
+  &::before {
   content: "";
   position: absolute;
   left: 0;
-  top: 102px;
+  top: 100%;
   width: 70px;
   height: 70px;
   border-radius: 50%;
   box-shadow: -35px -35px 0 0 white;
+}
 }
 
 .who-we-are .rightSide {
